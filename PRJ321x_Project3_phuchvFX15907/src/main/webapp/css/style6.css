@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#F2F2F2 !important;
+    
+}
+a{
+    text-decoration: none !important; 
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+}
+.header{
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+}
+.header h1{
+    font-family: "Righteous";
+}
+
+ul li {
+    display: inline-block;
+}
+ul{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.topnav a{
+    display: flex ;
+    font-size: larger;
+    align-items: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+.topnav a:hover{
+    background-color:#D5D5D5;
+    color: red;
+}
+
+.search-container {
+    margin: auto 20px;
+}
+.search-input{
+    height: 30px;
+}
+.search-button{
+    height: 30px;
+    width: 30px;
+}
+
+
+#login-box{    
+    margin: auto;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 100px;
+    background-color: rgba(68, 68, 68, 0.623);
+}
+#login-content{
+    background-color: white;
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+.close-login{
+    display: flex;
+    justify-content: flex-end;
+}
+.close-login #close{
+    position: absolute;
+    color: black;
+    margin-left: auto;
+    font-size: 30px;
+    font-weight: bold;
+    margin: auto;
+    padding: 0 20px;
+}
+.acclogin img{
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+}
+.acclogin{
+    text-align: center;
+}
+#login-box h3{
+	color: red;
+}
+.useandpass, .bnt-login, .rememberme, .footer-login{
+    padding: 10px 20px;
+}
+.useandpass p{
+    margin: 0px;
+}
+.form-row{
+    display: flex;
+    padding: 10px 0;
+}
+.form-input{
+    flex: 1;
+}
+#btnLogin{
+    width: 100%;
+    padding: 7px;
+    background-color: #04AA6B;
+    color: white;
+    border: none;
+}
+#bntCancel{
+    background-color: #E25241;
+    color: white;
+    border: none;
+    padding: 7px;
+}
+.footer-login{
+    display: flex;
+    justify-content: space-between;
+    background: #F1F1F1;
+}
+
+.leftcolumn , .rightcolumn{
+    padding: 0px !important;
+}
+
+.fakeimg{
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+.card-body{
+    text-align: left !important;
+}
+
+
+.card{
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+}
+.footer{
+    background: #474747;
+    color: white;
+    padding: 20px;
+}
+.footer p{
+    margin: 0px !important;
+}
+
+.footer h2{
+    font-size: x-large;
+}
+.other-info a{
+    text-decoration: none;
+    color: white;
+}
+.follow-us .fa {
+    padding: 10px 10px;
+    width: 43px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 5px;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+/*-----------------------*/
+@media only screen and (min-width: 992px) {
+    .topnav{
+        background-color: #E9E9E9;
+        padding: 0 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+/*-----------------------*/
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    .topnav{
+        background-color: #E9E9E9;
+        padding: 0 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+ul{
+    padding: 0px !important;
+}
+.footer{
+    padding: 20px;
+}
+.footer .follow-us{
+    padding: 10px;
+}
+}
+/*-----------------------*/
+@media (max-width:767px) {
+.topnav{
+    text-align: center;
+}
+.topnav a{
+    display: flex ;
+    font-size: larger;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+.search-container{
+    display: block !important;
+    text-align: center;
+}
+
+.footer .follow-us{
+    padding: 10px;
+}
+}
+
+
